@@ -256,9 +256,9 @@ export function AuthPage() {
       <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
 
       <div className={styles["auth-container"]}>
-        <div className={styles["wechat-part"]}>
+        {/* <div className={styles["wechat-part"]}>
           <WeChatLogin/>
-        </div>
+        </div> */}
 
         <div className={styles["password-part"]}>
           <div className={styles["tab-container"]}>
